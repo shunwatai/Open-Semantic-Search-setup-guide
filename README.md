@@ -79,6 +79,10 @@ I recommend disable the OCR for first index because it would take very long time
 
         # opensemanticsearch-index-dir --force /media/sharing/
 
+## Access to the web interface 
+Just open a web browser and enter the URL:```http://<serverIP or hostname>/search```
+
+
 ## Filemonitoring
 I cannot start it in daemon mode, I dont know why
 
