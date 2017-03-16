@@ -90,7 +90,7 @@ I cannot start it in daemon mode, I dont know why
 
 Also, it seems using the ```inotify``` for monitoring, it only fully functional for add new files in Linux machine locally. If user add the new files to the network drive in Windows, nothing will happen, to solve it, you might set a ```cronjob``` for ```touch``` the shared folder periodically, the command likes follow:
 
-    # touch -a /media/sharing/
+    # touch -a /media/sharing/*
     
 However, I think it is just similar to set the ```cronjob``` for run the force reindexing periodically.
 
